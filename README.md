@@ -1,2 +1,4 @@
 # SwiftStudy
-swift를 공부합니다~!
+
+## GroundRule
+- 주 1회 온/오프라인으로 진행
