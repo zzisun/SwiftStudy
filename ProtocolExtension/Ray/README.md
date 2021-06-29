@@ -84,4 +84,4 @@ extension Scene {
     }
 }
 ```
-- 해당 protocol의 bind 메서드는 이와같이 Scene 이동 코드를 구현하는 곳에서 사용
+- 해당 protocol의 bind 메서드는 이와같이 Scene 이동 코드를 구현하는 곳에서 호출
