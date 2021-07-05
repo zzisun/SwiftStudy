@@ -186,3 +186,4 @@ class ProtocolTestTests: XCTestCase {
 ```
 - 단일 Mock 객체를 활용하여 같은 Protocol을 채택한 두 객체를 Test
 - Protocol 기능 자체를 Test했기 때문에 가짜 객체를 Test했더라도, 진짜 객체에서도 동일하게 동작하는 것을 보장
+
