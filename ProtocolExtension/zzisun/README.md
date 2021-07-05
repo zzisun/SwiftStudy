@@ -115,7 +115,7 @@ class LoginViewModelTest: XCTestCase {
 final class LoginViewModel: ObservableObject {
     
     var emailText = ""
-		var passwordText = ""
+    var passwordText = ""
 
     private let userService: UserServiceProtocol // <-  private let userService = UserService()
     
