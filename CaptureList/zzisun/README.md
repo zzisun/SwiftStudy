@@ -14,11 +14,11 @@
 
   
 
-strong(default)
+strong(default): ARC로 객체의 메모리를 관리하여 사용하고자 할때
 
-weak - optional 타입
+weak - optional 타입: 강한참조 순환이 발생할때 메모리 누수를 방지
 
-unowned - 암시적 추출 옵셔널 타입
+unowned - 암시적 추출 옵셔널 타입: 객체의 할당과 해제가 명확할때! weak 대신 간결하게 사용
 
 
 
@@ -26,7 +26,7 @@ unowned - 암시적 추출 옵셔널 타입
 
 > **클로저** 내부에서 참조타입 규칙을 제시하여 self참조 순환문제 해결
 
-##### Strong Capture (default)
+#### Strong Capture (default)
 
 ```swift
 class Order {
@@ -62,7 +62,7 @@ firstOrder에 nil을 할당했지만 deint이 호출되지 않음. Memory leak �
 
 
 
-##### Weak Capture
+#### Weak Capture
 
 ```swift
 class Order {
@@ -92,7 +92,7 @@ weak capture는 self를 옵셔널로 만들어 클로저 내부에서 참조한�
 
 
 
-##### Unowned Capture
+#### Unowned Capture
 
 ```swift
 class Order {
@@ -135,8 +135,8 @@ weak capture를 사용하는게 안전하다!
 
 🤔
 
-##### **weak** vs **unowned** vs **unowned optional** 적절하게 사용하려면?
+##### 스토리보드와 ViewController간 IBOutlet연결은 항상 weak이어야하는가?
 
-
+http://monibu1548.github.io/2018/05/03/iboutlet-strong-weak/
 
 ##### 
