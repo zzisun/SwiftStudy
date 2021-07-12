@@ -16,9 +16,9 @@
 
 strong(default)
 
-weak - optional 값
+weak - optional 타입
 
-unowned
+unowned - 암시적 추출 옵셔널 타입
 
 
 
@@ -52,11 +52,7 @@ firstOrder = nil
 
 firstOrder에 nil을 할당했지만 deint이 호출되지 않음. Memory leak 발생.
 
-  --- ()->Void 클로저 ---      ------- firstOrder ------
-
-  |  **self**.name   | <--->   |  name         					|
-
-​                  	    				| description: () -> Void |
+<img width="450" alt="스크린샷 2021-07-12 오후 2 30 38" src="https://user-images.githubusercontent.com/60323625/125235659-c4c91000-e31d-11eb-8e4d-964a8310092e.png">
 
 
 
