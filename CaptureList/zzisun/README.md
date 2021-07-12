@@ -133,6 +133,8 @@ weak capture를 사용하는게 안전하다!
 
 
 
+
+
 🤔
 
 ##### 스토리보드와 ViewController간 IBOutlet연결은 항상 weak이어야하는가?
