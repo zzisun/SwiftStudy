@@ -10,3 +10,4 @@
 
 ## Weak.3 Capture List
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/Ray)
+- [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/zzisun)
