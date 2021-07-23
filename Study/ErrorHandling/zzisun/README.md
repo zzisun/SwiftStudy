@@ -26,7 +26,7 @@
 > Error를 던지고 함수를 종료한다.
 
 ```swift
-func getImages(count: Int) throws {
+func request() throws {
     ...
     if json.statusCode == 400 {
         throw RequestError.badRequest
@@ -49,7 +49,7 @@ func getImages(count: Int) throws {
   ```swift
   func getImages() {
       do {
-          try download()
+          try request()
       } catch RequestError.badRequest {
           print("Bad Request, 요청 실패")
       } catch RequestError.notFound {
