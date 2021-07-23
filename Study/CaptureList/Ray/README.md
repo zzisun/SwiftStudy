@@ -58,7 +58,7 @@ testClosure2()
 ####  클로저 with Capture List
 > 값 타입으로 캡쳐하고 싶을 때는 ? Capture List 활용
 
-```swift
+```swfit
 func testClosure3() {
     var number: Int = 0
     print("Test #1 = \(number)")
