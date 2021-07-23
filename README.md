@@ -14,4 +14,4 @@
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/zzisun)
 
 ## Weak.4 Error Handling
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/ErrorHandling/Ray)
