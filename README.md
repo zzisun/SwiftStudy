@@ -15,5 +15,5 @@
 
 ## Weak.4 Error Handling
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/ErrorHandling/Ray)
-- [Lia](https://github.com/zzisun/SwiftStudy/tree/master/Study/ErrorHandling/Lia)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/ErrorHandling/Lia/003.%20Error%20Handling.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/ErrorHandling/zzisun)
