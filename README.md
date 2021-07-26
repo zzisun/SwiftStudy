@@ -17,3 +17,6 @@
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/ErrorHandling/Ray)
 - [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/ErrorHandling/Lia/003.%20Error%20Handling.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/ErrorHandling/zzisun)
+
+## Weak.5 NSObject
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/NSObject/%EB%A0%88%EC%9D%B4)
