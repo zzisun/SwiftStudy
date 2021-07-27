@@ -5,7 +5,7 @@
 
 ## Weak.1 ~ 2 Protocol
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/ProtocolExtension/Ray)
-- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/ProtocolExtension/Lia/001.%20Protocol%2BExtension.md)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/ProtocolExtension/Lia/001.%20Protocol%2BExtension.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/ProtocolExtension/zzisun#readme)
 
 ## Weak.3 Capture List
