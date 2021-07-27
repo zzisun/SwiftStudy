@@ -10,7 +10,7 @@
 
 ## Weak.3 Capture List
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/Ray)
-- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/CaptureList/Lia/002.%20Automatic%20Reference%20Counting.md)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/CaptureList/Lia/002.%20Automatic%20Reference%20Counting.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/zzisun)
 
 ## Weak.4 Error Handling
