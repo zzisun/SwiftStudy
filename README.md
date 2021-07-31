@@ -20,4 +20,5 @@
 
 ## Weak.5 NSObject
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/NSObject/%EB%A0%88%EC%9D%B4)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/NSObject/Lia/004.%20NSObject.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/NSObject/zzisun)
