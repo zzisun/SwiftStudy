@@ -24,4 +24,4 @@
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/NSObject/zzisun)
 
 ## Week.6 Foundation & UIKit
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Foudation%20%26%20UIKit/Ray)
