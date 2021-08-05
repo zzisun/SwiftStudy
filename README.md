@@ -25,3 +25,4 @@
 
 ## Week.6 Foundation & UIKit
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Foudation%20%26%20UIKit/Ray)
+- [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/Foudation%20%26%20UIKit/zzisun)
