@@ -44,11 +44,11 @@ Delegate를 구현한다고 해서 어떤 객체의 일을 <u>완전히 처리�
 
 
 
-1. 요구사항에 해당하는 protocol 디자인
+  1. 요구사항에 해당하는 protocol 디자인
 
-2. `Receiver`는 해당 Delegation Protocol을 채택하고 메소드를 구현
+  2. `Receiver`는 해당 Delegation Protocol을 채택하고 메소드를 구현
 
-3. `Receiver`가 `Sender`에서 일어난 이벤트의 관련된 일을 할 것이라고 명시
+  3. `Receiver`가 `Sender`에서 일어난 이벤트의 관련된 일을 할 것이라고 명시
 
    
 
@@ -58,7 +58,7 @@ Delegate를 구현한다고 해서 어떤 객체의 일을 <u>완전히 처리�
 
 
 
- 1. 요구사항에 해당하는 protocol 디자인
+  1. 요구사항에 해당하는 protocol 디자인
 
 ```swift
 // Sender
@@ -79,9 +79,9 @@ public class QuestionViewController: UIViewController {
 
 
 
- 2. `Receiver`는 해당 Delegation Protocol을 채택하고 메소드를 구현
+  2. `Receiver`는 해당 Delegation Protocol을 채택하고 메소드를 구현
 
- 3.`Receiver`가 `Sender`에서 일어난 이벤트의 관련된 일을 할 것이라고 명시
+  3.`Receiver`가 `Sender`에서 일어난 이벤트의 관련된 일을 할 것이라고 명시
 
 ```swift
 // Receiver
