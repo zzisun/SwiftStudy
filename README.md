@@ -29,5 +29,6 @@
 
 ## Week.7 Delegate Pattern
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Delegate/Ray)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/Delegate/Lia/006.Delegate.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/Delegate/zzisun/Delegates.md)
 
