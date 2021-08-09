@@ -131,3 +131,5 @@ extension SelectQuestionGroupViewController: QuestionViewControllerDelegate {
 [iOS Delegate 패턴에 대해서 알아보기](https://magi82.github.io/ios-delegate/)
 
 [델리게이트-패턴-사용-시-순환참조에-의한-메모리릭](https://goodmorningcody.wordpress.com/2016/11/24/)
+
+[multicast delegate](https://www.vadimbulavin.com/multicast-delegate/)
