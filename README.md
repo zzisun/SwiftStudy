@@ -28,4 +28,4 @@
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/Foudation%20%26%20UIKit/zzisun)
 
 ## Week.7 Delegate Pattern
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Delegate/Ray)
