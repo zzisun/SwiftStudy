@@ -25,6 +25,7 @@
 
 ## Week.6 Foundation & UIKit
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Foudation%20%26%20UIKit/Ray)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/Foudation%20%26%20UIKit/Lia/005.%20CoreFramework.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/Foudation%20%26%20UIKit/zzisun)
 
 ## Week.7 Delegate Pattern
