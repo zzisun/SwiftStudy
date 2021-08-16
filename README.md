@@ -4,12 +4,12 @@
 - 주 1회 온/오프라인으로 진행
 
 ## Week.1 ~ 2 Protocol
-- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/ProtocolExtension/Ray)
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/ProtocolExtension/Ray)
 - [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/ProtocolExtension/Lia/001.%20Protocol%2BExtension.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/ProtocolExtension/zzisun#readme)
 
 ## Week.3 Capture List
-- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/Ray)
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/CaptureList/Ray)
 - [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/CaptureList/Lia/002.%20Automatic%20Reference%20Counting.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/CaptureList/zzisun)
 
@@ -34,4 +34,4 @@
 - [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/Delegate/zzisun/Delegates.md)
 
 ## Week.8 Escaping Closure
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Escaping%20Closure/Ray)
