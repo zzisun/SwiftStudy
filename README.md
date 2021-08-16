@@ -33,3 +33,5 @@
 - [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/Delegate/Lia/006.Delegate.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/Delegate/zzisun/Delegates.md)
 
+## Week.8 Escaping Closure
+- [Ray]()
