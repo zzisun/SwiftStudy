@@ -35,3 +35,4 @@
 
 ## Week.8 Escaping Closure
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Escaping%20Closure/Ray)
+- [Lia](https://github.com/zzisun/SwiftStudy/tree/master/Study/Escaping%20Closure/Lia)
