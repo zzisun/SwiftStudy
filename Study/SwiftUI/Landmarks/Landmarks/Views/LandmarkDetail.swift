@@ -20,9 +20,12 @@ struct LandmarkDetail: View {
                     .padding(.bottom, -130)
                 
                 VStack(alignment: .leading) {
-                    Text(landmark.name)
-                        .font(.title)
-                        .foregroundColor(.primary)
+                    HStack {
+                        Text(landmark.name)
+                            .font(.title)
+                            .foregroundColor(.primary)
+                        FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    }
                     
                     HStack {
                         Text(landmark.park)
@@ -48,7 +51,10 @@ struct LandmarkDetail: View {
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
-        LandmarkDetail(landmark: ModelData().landmarks.first!)
+        LandmarkDetail(landmark: modelData.landmarks.first!)
+            .environmentObject(modelData)
     }
 }
