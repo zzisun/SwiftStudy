@@ -1,4 +1,9 @@
 import Foundation
+import Combine
+
+final class ModelData: ObservableObject {
+    
+}
 
 var landmarks: [Landmark] = load("landmarkData.json")
 
