@@ -34,9 +34,9 @@ struct LandmarkDetail: View {
                     Text(landmark.description)
                 }
                 .padding()
-                
-                Spacer()
             }
+            .navigationTitle(landmark.name)
+            .navigationBarTitleDisplayMode(.inline)
         }
         
     }
