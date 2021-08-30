@@ -27,15 +27,17 @@ struct HikeView: View {
                 Spacer()
 
                 Button(action: {
-                    self.showDetail.toggle()
+                    withAnimation(.easeInOut(duration: 4)) {
+                        self.showDetail.toggle()
+                    }
                 }) {
                     Image(systemName: "chevron.right.circle")
                         .imageScale(.large)
                         .rotationEffect(.degrees(showDetail ? 90 : 0))
-                        .scaleEffect(showDetail ? 1.5 : 1)
+//                        .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
 //                        .animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
-                        .animation(.spring())
+//                        .animation(.spring())
                 }
             }
 
