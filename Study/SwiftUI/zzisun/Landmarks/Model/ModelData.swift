@@ -1,13 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Storage for model data.
-*/
-
 import Foundation
+import Combine
 
-var landmarks: [Landmark] = load("landmarkData.json")
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
