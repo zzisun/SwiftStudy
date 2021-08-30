@@ -55,3 +55,8 @@ scaletofill scaletofit
 
 
 ### Geometry Reader
+
+
+
+### easein, easeout, easeinout
+
