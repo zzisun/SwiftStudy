@@ -41,4 +41,4 @@
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI/Ray)
 
 ## Week.10 Initializer
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/%E3%84%B9%E3%85%87/README%202.md)
