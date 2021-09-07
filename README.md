@@ -42,3 +42,4 @@
 
 ## Week.10 Initializer
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/%E3%84%B9%E3%85%87/README%202.md)
+- [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/zzisun/Initializer.md)
