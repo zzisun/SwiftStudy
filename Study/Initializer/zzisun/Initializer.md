@@ -13,7 +13,7 @@
   * 적어도 한개 이상
   * "funnel" 포인트 
 
-  <img src="https://user-images.githubusercontent.com/60323625/132272099-1741cbf6-9f82-40f1-af9f-fe6f2a044b0c.png" heigh="100" align="left">
+  <img src="https://user-images.githubusercontent.com/60323625/132272099-1741cbf6-9f82-40f1-af9f-fe6f2a044b0c.png" heigh="100">
 
 * ***Convenience initializers***
 
@@ -23,7 +23,7 @@
   * 반복되는 초기화 패턴에서 지름길 제공
   * 초기화를 보다 명확하게 할 때
 
-  <img src="https://user-images.githubusercontent.com/60323625/132272108-f6d8a11e-bdac-40b1-a076-7d3384e11a5f.png" heigh="100" align="left">
+  <img src="https://user-images.githubusercontent.com/60323625/132272108-f6d8a11e-bdac-40b1-a076-7d3384e11a5f.png" heigh="100" >
 
 
 
@@ -41,7 +41,7 @@ A convenience initializer must call another initializer from the *same* class.
 
 A convenience initializer must ultimately call a designated initializer.
 
-<img src="https://docs.swift.org/swift-book/_images/initializerDelegation02_2x.png" width="600" align="left">
+<img src="https://docs.swift.org/swift-book/_images/initializerDelegation02_2x.png" width="600" >
 
 
 
@@ -53,7 +53,7 @@ A convenience initializer must ultimately call a designated initializer.
 
   이때, 초기화는 SubClass의 property -> SuperClass의 property 
 
-  <img src="https://docs.swift.org/swift-book/_images/twoPhaseInitialization01_2x.png" width="600" align="left">
+  <img src="https://docs.swift.org/swift-book/_images/twoPhaseInitialization01_2x.png" width="600" >
 
 
 
@@ -63,7 +63,7 @@ A convenience initializer must ultimately call a designated initializer.
 
   SuperClass의 property  -> SubClass의 property 
 
-  <img src="https://docs.swift.org/swift-book/_images/twoPhaseInitialization02_2x.png" width="600" align="left">
+  <img src="https://docs.swift.org/swift-book/_images/twoPhaseInitialization02_2x.png" width="600" >
 
 
 
