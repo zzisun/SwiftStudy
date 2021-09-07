@@ -2,7 +2,7 @@
 
 
 
-### Designated Initializers and Convenience Initializers
+## Designated Initializers and Convenience Initializers
 
 * ***Designated initializers***
 
@@ -27,7 +27,7 @@
 
 
 
-### Initializer Delegation for Class Types
+## Initializer Delegation for Class Types
 
 **Rule 1**
 
@@ -45,7 +45,7 @@ A convenience initializer must ultimately call a designated initializer.
 
 
 
-### Two-Phase Initialization
+## Two-Phase Initialization
 
 - ***First Phase*** 
 
@@ -76,7 +76,7 @@ A convenience initializer must ultimately call a designated initializer.
 
 
 
-### Initializer Inheritance and Overriding
+## Initializer Inheritance and Overriding
 
 >  Swift에서는 슈퍼클래스의 이니셜라이저를 자동으로 상속받지 않는다.
 
@@ -100,7 +100,7 @@ class Bicycle: Vehicle {
 
 
 
-### Automatic Initializer Inheritance
+## Automatic Initializer Inheritance
 
 > 위에서 언급했듯이 Swift에서는 슈퍼클래스의 이니셜라이저를 서브클래스에서 자동으로 상속받지 않는다. 
 >
