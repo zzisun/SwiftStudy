@@ -10,7 +10,15 @@ NS 클래스를 사용하는 데에... 기본적인 기능들인데 왜 runtime�
 
 <img width="400" alt="스크린샷 2021-08-02 오후 3 12 19" src="https://user-images.githubusercontent.com/60323625/127812588-e871e125-46b5-4cf4-8ccf-22e4f76cfdfa.png">
 
+위의 Foundation 코드를 보면 import Combine을 맨 첫줄에 확인할 수 있다!
 
+"apple은 Combine의 API를 Foundation 프레임 워크에 통합했기 때문에 Timer, NotificationCenter 및 Core Data와 같은 핵심 프레임 워크는 이미 Combine을 사용한다." 
+
+Combine이 시스템 계층 구조에서 다음과 같이 위치한다. 
+
+![스크린샷 2020-10-03 오후 6.28.53](https://tva1.sinaimg.cn/large/007S8ZIlgy1gjc9x4py0ej30wu0l47dc.jpg)
+
+* `브릿징`
 
 
 
@@ -64,5 +72,4 @@ RxSwift와 같이 bind 시켜놓으면 (제어권 부여), 이벤트 일어날 �
 
 
 `Inversion of Control` 이 핵심적인 차이라고 한다... (추가해놓겠습니다.)
-
 
