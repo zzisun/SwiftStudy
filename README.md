@@ -36,9 +36,11 @@
 ## Week.8 Escaping Closure
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/Escaping%20Closure/Ray)
 - [Lia](https://github.com/zzisun/SwiftStudy/tree/master/Study/Escaping%20Closure/Lia)
+- [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/Escaping%20Closure/zzisun/Closure.md)
 
 ## Week.9 SwiftUI
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI/Ray)
+- [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI/zzisun)
 
 ## Week.10 Initializer
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/%E3%84%B9%E3%85%87/README%202.md)
