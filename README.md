@@ -50,4 +50,4 @@
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/Study/Dispatch/%E3%84%B9%E3%85%87/README.md)
 
 ## Week.12 SwiftUI(2)
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI(2)_Widget/Ray/Widget_Test)
