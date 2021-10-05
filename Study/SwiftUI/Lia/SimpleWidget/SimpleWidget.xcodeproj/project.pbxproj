@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2760FC270C3FB100743102 /* ImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2760FB270C3FB100743102 /* ImageView+LoadImage.swift */; };
+		AE2760FF270C408F00743102 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AE2760FE270C408F00743102 /* Kingfisher */; };
 		AE69AFC0270BF8A2001F4CE9 /* SimpleWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69AFBF270BF8A2001F4CE9 /* SimpleWidgetApp.swift */; };
 		AE69AFC2270BF8A2001F4CE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69AFC1270BF8A2001F4CE9 /* ContentView.swift */; };
 		AE69AFC4270BF8A3001F4CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE69AFC3270BF8A3001F4CE9 /* Assets.xcassets */; };
@@ -46,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE2760FB270C3FB100743102 /* ImageView+LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+LoadImage.swift"; sourceTree = "<group>"; };
 		AE69AFBC270BF8A2001F4CE9 /* SimpleWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE69AFBF270BF8A2001F4CE9 /* SimpleWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidgetApp.swift; sourceTree = "<group>"; };
 		AE69AFC1270BF8A2001F4CE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2760FF270C408F00743102 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +111,7 @@
 				AE69AFBF270BF8A2001F4CE9 /* SimpleWidgetApp.swift */,
 				AE69AFC1270BF8A2001F4CE9 /* ContentView.swift */,
 				AE69B018270C376A001F4CE9 /* Network.swift */,
+				AE2760FB270C3FB100743102 /* ImageView+LoadImage.swift */,
 				AE69AFC3270BF8A3001F4CE9 /* Assets.xcassets */,
 				AE69AFC5270BF8A3001F4CE9 /* Preview Content */,
 			);
@@ -160,6 +165,9 @@
 				AE69B012270C103D001F4CE9 /* PBXTargetDependency */,
 			);
 			name = SimpleWidget;
+			packageProductDependencies = (
+				AE2760FE270C408F00743102 /* Kingfisher */,
+			);
 			productName = SimpleWidget;
 			productReference = AE69AFBC270BF8A2001F4CE9 /* SimpleWidget.app */;
 			productType = "com.apple.product-type.application";
@@ -208,6 +216,9 @@
 				Base,
 			);
 			mainGroup = AE69AFB3270BF8A2001F4CE9;
+			packageReferences = (
+				AE2760FD270C408F00743102 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = AE69AFBD270BF8A2001F4CE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +256,7 @@
 			files = (
 				AE69AFC2270BF8A2001F4CE9 /* ContentView.swift in Sources */,
 				AE69AFC0270BF8A2001F4CE9 /* SimpleWidgetApp.swift in Sources */,
+				AE2760FC270C3FB100743102 /* ImageView+LoadImage.swift in Sources */,
 				AE69B019270C376A001F4CE9 /* Network.swift in Sources */,
 				AE69B01E270C3B15001F4CE9 /* FirstWidgetView.swift in Sources */,
 			);
@@ -533,6 +545,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE2760FD270C408F00743102 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE2760FE270C408F00743102 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE2760FD270C408F00743102 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE69AFB4270BF8A2001F4CE9 /* Project object */;
 }
