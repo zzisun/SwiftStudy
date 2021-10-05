@@ -4,5 +4,5 @@ struct TodoList: Identifiable {
     var id: Int
     var title: String
     var content: String
-    var registeredTime: String
+    var date: String
 }
