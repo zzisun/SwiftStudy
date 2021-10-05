@@ -108,10 +108,3 @@ final class UserFetcher {
     }
     
 }
-
-struct User: Decodable {
-    let id: Int
-    let email: String
-    let name: String
-    let profileImage: String
-}

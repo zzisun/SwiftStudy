@@ -17,6 +17,7 @@
 		AE69B00F270C103D001F4CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE69B00E270C103D001F4CE9 /* Assets.xcassets */; };
 		AE69B013270C103D001F4CE9 /* FirstWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE69B005270C103A001F4CE9 /* FirstWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AE69B019270C376A001F4CE9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69B018270C376A001F4CE9 /* Network.swift */; };
+		AE69B01C270C3A69001F4CE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69B01A270C3A2E001F4CE9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		AE69B00E270C103D001F4CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE69B010270C103D001F4CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE69B018270C376A001F4CE9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AE69B01A270C3A2E001F4CE9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				AE69B00C270C103A001F4CE9 /* FirstWidget.swift */,
+				AE69B01A270C3A2E001F4CE9 /* User.swift */,
 				AE69B00E270C103D001F4CE9 /* Assets.xcassets */,
 				AE69B010270C103D001F4CE9 /* Info.plist */,
 			);
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE69B01C270C3A69001F4CE9 /* User.swift in Sources */,
 				AE69B00D270C103A001F4CE9 /* FirstWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
