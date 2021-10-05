@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AE2760FC270C3FB100743102 /* ImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2760FB270C3FB100743102 /* ImageView+LoadImage.swift */; };
 		AE2760FF270C408F00743102 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AE2760FE270C408F00743102 /* Kingfisher */; };
+		AE276104270C474700743102 /* FirstWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69B01D270C3B15001F4CE9 /* FirstWidgetView.swift */; };
+		AE276106270C493800743102 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69B018270C376A001F4CE9 /* Network.swift */; };
 		AE69AFC0270BF8A2001F4CE9 /* SimpleWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69AFBF270BF8A2001F4CE9 /* SimpleWidgetApp.swift */; };
 		AE69AFC2270BF8A2001F4CE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE69AFC1270BF8A2001F4CE9 /* ContentView.swift */; };
 		AE69AFC4270BF8A3001F4CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE69AFC3270BF8A3001F4CE9 /* Assets.xcassets */; };
@@ -110,8 +112,6 @@
 			children = (
 				AE69AFBF270BF8A2001F4CE9 /* SimpleWidgetApp.swift */,
 				AE69AFC1270BF8A2001F4CE9 /* ContentView.swift */,
-				AE69B018270C376A001F4CE9 /* Network.swift */,
-				AE2760FB270C3FB100743102 /* ImageView+LoadImage.swift */,
 				AE69AFC3270BF8A3001F4CE9 /* Assets.xcassets */,
 				AE69AFC5270BF8A3001F4CE9 /* Preview Content */,
 			);
@@ -138,6 +138,8 @@
 		AE69B00B270C103A001F4CE9 /* FirstWidget */ = {
 			isa = PBXGroup;
 			children = (
+				AE2760FB270C3FB100743102 /* ImageView+LoadImage.swift */,
+				AE69B018270C376A001F4CE9 /* Network.swift */,
 				AE69B00C270C103A001F4CE9 /* FirstWidget.swift */,
 				AE69B01D270C3B15001F4CE9 /* FirstWidgetView.swift */,
 				AE69B01A270C3A2E001F4CE9 /* UserWidget.swift */,
@@ -267,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE69B01C270C3A69001F4CE9 /* UserWidget.swift in Sources */,
+				AE276104270C474700743102 /* FirstWidgetView.swift in Sources */,
+				AE276106270C493800743102 /* Network.swift in Sources */,
 				AE69B00D270C103A001F4CE9 /* FirstWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
