@@ -125,3 +125,8 @@ struct Provider: TimelineProvider {
 <img src="https://user-images.githubusercontent.com/60323625/136007863-a1dc217c-f25a-46f4-b34c-e0b64762c440.gif">
 
 
+WWDC2020 Widget Code-along Tutorial을 진행했습니다.
+[Widget Code-along1](https://developer.apple.com/videos/play/wwdc2020/10034)
+[Widget Code-along1](https://developer.apple.com/videos/play/wwdc2020/10035)
+[Widget Code-along1](https://developer.apple.com/videos/play/wwdc2020/10036)
+
