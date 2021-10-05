@@ -29,11 +29,21 @@ struct Provider: TimelineProvider {
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [UserWidget] = []
+        
+        UserFetcher().excute{ result in
+            switch result {
+            case .success(let users):
+                entries = users
+            case .failure(let error):
+                print(error)
+            }
+        }
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
-        for index in 0 ..< 5 {
-            entries[index].date = Calendar.current.date(byAdding: .hour, value: index, to: currentDate)!
+        let interval = 5
+        for index in 0 ..< entries.count {
+            entries[index].date = Calendar.current.date(byAdding: .second, value: index * interval, to: currentDate)!
         }
 
         let timeline = Timeline(entries: entries, policy: .atEnd)
@@ -56,16 +66,30 @@ struct FirstWidget: Widget {
 
 struct FirstWidgetEntryView : View {
     var model: UserWidget
-
+    
     var body: some View {
-        Text(model.date, style: .time)
+
+        VStack(alignment: .leading) {
+            Text(model.date, style: .time)
+            
+            Text(model.name)
+                .font(.largeTitle)
+                .foregroundColor(.brown)
+            
+            Text(model.email)
+                .font(.caption)
+                .foregroundColor(.black)
+        }
+        .background(.white)
+        .padding()
+        .cornerRadius(6)
     }
 }
 
 struct FirstWidget_Previews: PreviewProvider {
     static var previews: some View {
         FirstWidgetEntryView(model: snapshotEntry)
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
+            .previewContext(WidgetPreviewContext(family: .systemMedium))
     }
 }
 
@@ -74,15 +98,11 @@ struct FirstWidget_Previews: PreviewProvider {
 
 final class UserFetcher {
     
-    private var networkManager: NetworkManagerable
+    private var networkManager = NetworkManager()
     private var cancelBag = Set<AnyCancellable>()
     
-    init(networkManager: NetworkManagerable) {
-        self.networkManager = networkManager
-    }
-    
     func excute(completion: @escaping (Result<[UserWidget], NetworkError>) -> Void) {
-        networkManager.get(path: "/issues", type: [UserWidget].self)
+        networkManager.get(path: "/user", type: [UserWidget].self)
             .receive(on: DispatchQueue.main)
             .sink { error in
                 switch error {
