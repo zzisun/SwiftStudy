@@ -126,6 +126,7 @@ struct Provider: TimelineProvider {
 
 
 WWDC2020 Widget Code-along Tutorial을 진행했습니다.
+
 [Widget Code-along1](https://developer.apple.com/videos/play/wwdc2020/10034)
 
 [Widget Code-along1](https://developer.apple.com/videos/play/wwdc2020/10035)
