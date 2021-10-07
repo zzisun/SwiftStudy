@@ -44,6 +44,7 @@
 
 ## Week.10 Initializer
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/%E3%84%B9%E3%85%87/README%202.md)
+- [Lia](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/Lia/009.%20Initializer.md)
 - [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/Initializer/zzisun/Initializer.md)
 
 ## Week.11 Dispatch Rule
@@ -51,4 +52,5 @@
 
 ## Week.12 SwiftUI(2)
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI(2)_Widget/Ray/aaaa)
+- [Lia](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI(2)_Widget/Lia)
 - [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/SwiftUI(2)_Widget/zzisun)
