@@ -54,3 +54,6 @@
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI(2)_Widget/Ray/aaaa)
 - [Lia](https://github.com/zzisun/SwiftStudy/tree/master/Study/SwiftUI(2)_Widget/Lia)
 - [zzisun](https://github.com/zzisun/SwiftStudy/blob/master/Study/SwiftUI(2)_Widget/zzisun)
+
+## Week.13 CoreData
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/CoreData/%E3%84%B9%E3%85%87/CoreDataStudy/CoreDataStudy)
