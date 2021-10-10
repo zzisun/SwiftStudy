@@ -4,7 +4,7 @@ struct RowView: View {
     var information: TodoList
     
     var body: some View {
-        Text(information.title + ":" + information.content)
+        Text(information.title + " : " + information.content)
     }
 }
 

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LwM-1L-OJm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="sHp-xc-JiR">
+            <objects>
+                <viewController id="LwM-1L-OJm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dbc-lL-X2s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BeW-yh-KQJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYZ-02-XHx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-770" y="88"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="MainVC" storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="MainViewController" customModule="CoreDataStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0TD-3L-Kzd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsCell" id="68b-F5-xSG" customClass="NewsCell" customModule="CoreDataStudy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="68b-F5-xSG" id="Byp-lB-PJf">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0TD-3L-Kzd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0wg-3O-1dd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0TD-3L-Kzd" secondAttribute="bottom" id="8ZV-Lp-TI9"/>
+                            <constraint firstItem="0TD-3L-Kzd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HpY-iI-Ycm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0TD-3L-Kzd" secondAttribute="trailing" id="oOv-6T-OXV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="News" id="GOh-OX-gfv">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="3qK-Z8-LRP"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addNewsButton" destination="3qK-Z8-LRP" id="QGs-x3-HYs"/>
+                        <outlet property="newsListTableView" destination="0TD-3L-Kzd" id="kWf-L9-tLs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926.08695652173924" y="88.392857142857139"/>
+        </scene>
+        <!--입력-->
+        <scene sceneID="lGN-jb-b09">
+            <objects>
+                <viewController restorationIdentifier="AddVC" storyboardIdentifier="AddVC" id="oZK-0T-xwP" customClass="AddViewController" customModule="CoreDataStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sPH-AV-xGd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="제목을 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jbR-PL-JpC">
+                                <rect key="frame" x="26.5" y="106.5" width="361" height="34"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="내용을 입력해주세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lRt-Vt-AZt">
+                                <rect key="frame" x="26" y="184" width="362" height="328"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="51s-Dc-A4H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lRt-Vt-AZt" firstAttribute="top" secondItem="jbR-PL-JpC" secondAttribute="bottom" multiplier="1.3" constant="1" id="4LR-jU-Br2"/>
+                            <constraint firstItem="jbR-PL-JpC" firstAttribute="width" secondItem="sPH-AV-xGd" secondAttribute="width" multiplier="0.871981" id="7nO-5Q-OzQ"/>
+                            <constraint firstItem="lRt-Vt-AZt" firstAttribute="width" secondItem="jbR-PL-JpC" secondAttribute="width" constant="1" id="NVK-qp-5wv"/>
+                            <constraint firstItem="jbR-PL-JpC" firstAttribute="top" secondItem="51s-Dc-A4H" secondAttribute="top" multiplier="1.2" constant="1" id="PCe-8e-C1g"/>
+                            <constraint firstItem="lRt-Vt-AZt" firstAttribute="height" secondItem="sPH-AV-xGd" secondAttribute="height" multiplier="0.366071" id="dN5-td-ISC"/>
+                            <constraint firstItem="jbR-PL-JpC" firstAttribute="height" secondItem="sPH-AV-xGd" secondAttribute="height" multiplier="0.0379464" id="l99-8D-ADX"/>
+                            <constraint firstItem="jbR-PL-JpC" firstAttribute="centerX" secondItem="sPH-AV-xGd" secondAttribute="centerX" id="yCc-sx-jGX"/>
+                            <constraint firstItem="lRt-Vt-AZt" firstAttribute="centerX" secondItem="sPH-AV-xGd" secondAttribute="centerX" id="ygR-6d-es9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="입력" id="eax-3x-Afr">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="Cb0-Ge-8Cd"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="contentTextView" destination="lRt-Vt-AZt" id="XSz-UM-qm8"/>
+                        <outlet property="saveButton" destination="Cb0-Ge-8Cd" id="mC9-MR-ob2"/>
+                        <outlet property="titleTextField" destination="jbR-PL-JpC" id="km6-Gn-292"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C7l-eD-GrR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1747.826086956522" y="88.392857142857139"/>
+        </scene>
+        <!--수정-->
+        <scene sceneID="1uY-Gy-Ba1">
+            <objects>
+                <viewController restorationIdentifier="EditVC" storyboardIdentifier="EditVC" id="Hwp-K2-dcT" customClass="EditViewController" customModule="CoreDataStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7H-gz-5sw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="제목을 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xjq-5n-rSJ">
+                                <rect key="frame" x="26.5" y="106.5" width="361" height="34"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="내용을 입력해주세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-V4-IxH">
+                                <rect key="frame" x="26" y="184" width="362" height="328"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMm-bd-o2k">
+                                <rect key="frame" x="145.5" y="513" width="123" height="89"/>
+                                <state key="normal" title="삭제">
+                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cdI-Ib-Wn8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mMm-bd-o2k" firstAttribute="height" secondItem="Y7H-gz-5sw" secondAttribute="height" multiplier="0.0993304" id="1HL-S7-xQa"/>
+                            <constraint firstItem="xjq-5n-rSJ" firstAttribute="height" secondItem="Y7H-gz-5sw" secondAttribute="height" multiplier="0.0379464" id="4ae-9l-keO"/>
+                            <constraint firstItem="gGz-V4-IxH" firstAttribute="top" secondItem="xjq-5n-rSJ" secondAttribute="bottom" multiplier="1.3" constant="1" id="5f2-p1-THo"/>
+                            <constraint firstItem="mMm-bd-o2k" firstAttribute="top" secondItem="gGz-V4-IxH" secondAttribute="bottom" constant="1" id="9te-8Z-PNs"/>
+                            <constraint firstItem="gGz-V4-IxH" firstAttribute="height" secondItem="Y7H-gz-5sw" secondAttribute="height" multiplier="0.366071" id="Lyh-g0-IZ1"/>
+                            <constraint firstItem="gGz-V4-IxH" firstAttribute="width" secondItem="Y7H-gz-5sw" secondAttribute="width" multiplier="0.874396" id="O4s-3B-mtB"/>
+                            <constraint firstItem="xjq-5n-rSJ" firstAttribute="top" secondItem="cdI-Ib-Wn8" secondAttribute="top" multiplier="1.2" constant="1" id="RDm-je-LKF"/>
+                            <constraint firstItem="gGz-V4-IxH" firstAttribute="centerX" secondItem="Y7H-gz-5sw" secondAttribute="centerX" id="X2a-g7-AEB"/>
+                            <constraint firstItem="xjq-5n-rSJ" firstAttribute="width" secondItem="Y7H-gz-5sw" secondAttribute="width" multiplier="0.871981" id="aLb-eg-zPX"/>
+                            <constraint firstItem="xjq-5n-rSJ" firstAttribute="centerX" secondItem="Y7H-gz-5sw" secondAttribute="centerX" id="gqo-7g-aoA"/>
+                            <constraint firstItem="mMm-bd-o2k" firstAttribute="centerX" secondItem="Y7H-gz-5sw" secondAttribute="centerX" id="k4N-ja-Hyc"/>
+                            <constraint firstItem="mMm-bd-o2k" firstAttribute="width" secondItem="Y7H-gz-5sw" secondAttribute="width" multiplier="0.297101" id="mFa-sS-W3g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="수정" id="xlp-VR-YYG">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="aHO-Qr-24Z"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="contentTextView" destination="gGz-V4-IxH" id="0kB-1a-0ZF"/>
+                        <outlet property="deleteButton" destination="mMm-bd-o2k" id="Apa-xP-ODl"/>
+                        <outlet property="saveButton" destination="aHO-Qr-24Z" id="ywd-Ue-89q"/>
+                        <outlet property="titleTextField" destination="xjq-5n-rSJ" id="nb0-B2-WKS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgI-ds-iIc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2494.202898550725" y="87.723214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V3m-nB-3fO">
+            <objects>
+                <navigationController restorationIdentifier="Nav" storyboardIdentifier="Nav" automaticallyAdjustsScrollViewInsets="NO" id="8iR-de-B5H" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0um-p9-cg8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IUS-gX-CDy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8o-sM-5Fi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15.942028985507248" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -2,22 +2,24 @@ import WidgetKit
 import SwiftUI
 import Intents
 
-struct TodoView: View {
-    let data: TodoList
+struct ListView: View {
+    let data:[TodoList]
     
     var body: some View {
         VStack {
-            Text(data.title)
-            Text(data.content)
+            ForEach(0..<3) { idx in
+                Text(data[idx].title + " : " + data[idx].content)
+            }
         }
     }
 }
+
 
 struct bbbEntryView : View {
     var entry: TodoListEntry
     
     var body: some View {
-        TodoView(data: entry.todoList[1])
+        ListView(data: entry.todoList)
     }
 }
 
@@ -54,7 +56,7 @@ struct bbb: Widget {
     static let kind: String = "bbb"
     
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: "bbb", provider: TodoListProvider()) { entry in
+        StaticConfiguration(kind: bbb.kind, provider: TodoListProvider()) { entry in
             bbbEntryView(entry: entry)
         }
         .configurationDisplayName("My Widget")
@@ -65,6 +67,6 @@ struct bbb: Widget {
 struct bbb_Previews: PreviewProvider {
     static var previews: some View {
         bbbEntryView(entry: TodoListEntry(date: Date(), todoList: ModelData.todoList))
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
+            .previewContext(WidgetPreviewContext(family: .systemMedium))
     }
 }
