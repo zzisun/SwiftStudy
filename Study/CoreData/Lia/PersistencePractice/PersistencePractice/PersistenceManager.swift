@@ -49,4 +49,20 @@ class PersistenceManager {
         return models
     }
     
+    func deleteUser(id: Int64) -> Bool {
+        guard let context = context else { return false }
+        
+        do {
+            let results = try context.fetch(Entity.fetchRequest())
+            if !results.isEmpty {
+                context.delete(results[0])
+                try context.save()
+            }
+        } catch {
+            print(error.localizedDescription)
+            return false
+        }
+        return true
+    }
+    
 }
