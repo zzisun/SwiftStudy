@@ -49,13 +49,13 @@ class PersistenceManager {
         return models
     }
     
-    func deleteUser(id: Int64) -> Bool {
+    @discardableResult func deleteUser(id: Int) -> Bool {
         guard let context = context else { return false }
         
         do {
             let results = try context.fetch(Entity.fetchRequest())
-            if !results.isEmpty {
-                context.delete(results[0])
+            if !results.isEmpty && id < results.count {
+                context.delete(results[id])
                 try context.save()
             }
         } catch {
