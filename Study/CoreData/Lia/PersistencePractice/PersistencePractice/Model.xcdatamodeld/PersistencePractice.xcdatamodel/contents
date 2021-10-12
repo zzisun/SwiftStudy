@@ -7,6 +7,6 @@
         <attribute name="profileImage" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Entity" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Entity" positionX="-63" positionY="-18" width="128" height="103"/>
     </elements>
 </model>
