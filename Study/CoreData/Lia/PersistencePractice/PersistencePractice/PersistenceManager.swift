@@ -14,7 +14,7 @@ class PersistenceManager {
     let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
     lazy var context = appDelegate?.persistentContainer.viewContext
     
-    let EntityName = "Model"
+    let EntityName = "Entity"
 
     func save(user: User) {
         guard let context = context else { return }
