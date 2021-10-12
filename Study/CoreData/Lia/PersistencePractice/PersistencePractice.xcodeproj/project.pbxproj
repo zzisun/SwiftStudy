@@ -11,7 +11,7 @@
 		AE53D51E27156564005DDBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D51D27156564005DDBF3 /* SceneDelegate.swift */; };
 		AE53D52027156564005DDBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D51F27156564005DDBF3 /* ViewController.swift */; };
 		AE53D52327156564005DDBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52127156564005DDBF3 /* Main.storyboard */; };
-		AE53D52627156564005DDBF3 /* PersistencePractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE53D52427156564005DDBF3 /* PersistencePractice.xcdatamodeld */; };
+		AE53D52627156564005DDBF3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE53D52427156564005DDBF3 /* Model.xcdatamodeld */; };
 		AE53D52827156566005DDBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52727156566005DDBF3 /* Assets.xcassets */; };
 		AE53D52B27156566005DDBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -65,7 +65,7 @@
 				AE53D52727156566005DDBF3 /* Assets.xcassets */,
 				AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */,
 				AE53D52C27156566005DDBF3 /* Info.plist */,
-				AE53D52427156564005DDBF3 /* PersistencePractice.xcdatamodeld */,
+				AE53D52427156564005DDBF3 /* Model.xcdatamodeld */,
 			);
 			path = PersistencePractice;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE53D52627156564005DDBF3 /* PersistencePractice.xcdatamodeld in Sources */,
+				AE53D52627156564005DDBF3 /* Model.xcdatamodeld in Sources */,
 				AE53D52027156564005DDBF3 /* ViewController.swift in Sources */,
 				AE53D51C27156564005DDBF3 /* AppDelegate.swift in Sources */,
 				AE53D51E27156564005DDBF3 /* SceneDelegate.swift in Sources */,
@@ -366,13 +366,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AE53D52427156564005DDBF3 /* PersistencePractice.xcdatamodeld */ = {
+		AE53D52427156564005DDBF3 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				AE53D52527156564005DDBF3 /* PersistencePractice.xcdatamodel */,
 			);
 			currentVersion = AE53D52527156564005DDBF3 /* PersistencePractice.xcdatamodel */;
-			path = PersistencePractice.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
