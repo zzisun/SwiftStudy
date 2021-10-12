@@ -14,6 +14,7 @@
 		AE53D52627156564005DDBF3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE53D52427156564005DDBF3 /* Model.xcdatamodeld */; };
 		AE53D52827156566005DDBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52727156566005DDBF3 /* Assets.xcassets */; };
 		AE53D52B27156566005DDBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */; };
+		AE53D53627156899005DDBF3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D53527156899005DDBF3 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AE53D52727156566005DDBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE53D52A27156566005DDBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE53D52C27156566005DDBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE53D53527156899005DDBF3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				AE53D51B27156564005DDBF3 /* AppDelegate.swift */,
 				AE53D51D27156564005DDBF3 /* SceneDelegate.swift */,
 				AE53D51F27156564005DDBF3 /* ViewController.swift */,
+				AE53D53527156899005DDBF3 /* User.swift */,
 				AE53D52127156564005DDBF3 /* Main.storyboard */,
 				AE53D52727156566005DDBF3 /* Assets.xcassets */,
 				AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				AE53D52627156564005DDBF3 /* Model.xcdatamodeld in Sources */,
 				AE53D52027156564005DDBF3 /* ViewController.swift in Sources */,
 				AE53D51C27156564005DDBF3 /* AppDelegate.swift in Sources */,
+				AE53D53627156899005DDBF3 /* User.swift in Sources */,
 				AE53D51E27156564005DDBF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
