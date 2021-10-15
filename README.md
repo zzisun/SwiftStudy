@@ -57,4 +57,5 @@
 
 ## Week.13 CoreData
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/Study/CoreData/%E3%84%B9%E3%85%87/CoreDataStudy/CoreDataStudy)
+- [Lia](https://github.com/zzisun/SwiftStudy/tree/master/Study/CoreData/Lia/PersistencePractice)
 - [zzisun](https://github.com/zzisun/SwiftStudy/tree/master/Study/CoreData/zzisun/CoreDataProject)
