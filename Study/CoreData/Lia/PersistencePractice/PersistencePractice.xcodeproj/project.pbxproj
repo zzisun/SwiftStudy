@@ -7,31 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE53D51C27156564005DDBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D51B27156564005DDBF3 /* AppDelegate.swift */; };
-		AE53D51E27156564005DDBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D51D27156564005DDBF3 /* SceneDelegate.swift */; };
-		AE53D52027156564005DDBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D51F27156564005DDBF3 /* ViewController.swift */; };
-		AE53D52327156564005DDBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52127156564005DDBF3 /* Main.storyboard */; };
+		AE53D51C27156564005DDBF3 /* PersistenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D51B27156564005DDBF3 /* PersistenceApp.swift */; };
 		AE53D52627156564005DDBF3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE53D52427156564005DDBF3 /* Model.xcdatamodeld */; };
 		AE53D52827156566005DDBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52727156566005DDBF3 /* Assets.xcassets */; };
-		AE53D52B27156566005DDBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */; };
 		AE53D53627156899005DDBF3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D53527156899005DDBF3 /* User.swift */; };
 		AE53D53827156B20005DDBF3 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D53727156B20005DDBF3 /* PersistenceManager.swift */; };
 		AE53D53A27158575005DDBF3 /* PersistenceUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53D53927158575005DDBF3 /* PersistenceUIView.swift */; };
+		AE53D53E27159EA4005DDBF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE53D53D27159EA3005DDBF3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE53D51827156564005DDBF3 /* PersistencePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistencePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE53D51B27156564005DDBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE53D51D27156564005DDBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE53D51F27156564005DDBF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE53D52227156564005DDBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE53D51B27156564005DDBF3 /* PersistenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceApp.swift; sourceTree = "<group>"; };
 		AE53D52527156564005DDBF3 /* PersistencePractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersistencePractice.xcdatamodel; sourceTree = "<group>"; };
 		AE53D52727156566005DDBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE53D52A27156566005DDBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE53D52C27156566005DDBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE53D53527156899005DDBF3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AE53D53727156B20005DDBF3 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		AE53D53927158575005DDBF3 /* PersistenceUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceUIView.swift; sourceTree = "<group>"; };
+		AE53D53B27159E87005DDBF3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AE53D53D27159EA3005DDBF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +59,26 @@
 		AE53D51A27156564005DDBF3 /* PersistencePractice */ = {
 			isa = PBXGroup;
 			children = (
-				AE53D51B27156564005DDBF3 /* AppDelegate.swift */,
-				AE53D51D27156564005DDBF3 /* SceneDelegate.swift */,
-				AE53D51F27156564005DDBF3 /* ViewController.swift */,
+				AE53D51B27156564005DDBF3 /* PersistenceApp.swift */,
 				AE53D53927158575005DDBF3 /* PersistenceUIView.swift */,
+				AE53D53C27159EA3005DDBF3 /* Preview Content */,
 				AE53D53527156899005DDBF3 /* User.swift */,
 				AE53D53727156B20005DDBF3 /* PersistenceManager.swift */,
-				AE53D52127156564005DDBF3 /* Main.storyboard */,
 				AE53D52727156566005DDBF3 /* Assets.xcassets */,
-				AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */,
 				AE53D52C27156566005DDBF3 /* Info.plist */,
 				AE53D52427156564005DDBF3 /* Model.xcdatamodeld */,
+				AE53D53B27159E87005DDBF3 /* SwiftUI.framework */,
 			);
 			path = PersistencePractice;
+			sourceTree = "<group>";
+		};
+		AE53D53C27159EA3005DDBF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE53D53D27159EA3005DDBF3 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../../../SwiftUI(2)_Widget/Lia/SimpleWidget/SimpleWidget/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE53D52B27156566005DDBF3 /* LaunchScreen.storyboard in Resources */,
+				AE53D53E27159EA4005DDBF3 /* Preview Assets.xcassets in Resources */,
 				AE53D52827156566005DDBF3 /* Assets.xcassets in Resources */,
-				AE53D52327156564005DDBF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,34 +153,13 @@
 			files = (
 				AE53D52627156564005DDBF3 /* Model.xcdatamodeld in Sources */,
 				AE53D53A27158575005DDBF3 /* PersistenceUIView.swift in Sources */,
-				AE53D52027156564005DDBF3 /* ViewController.swift in Sources */,
-				AE53D51C27156564005DDBF3 /* AppDelegate.swift in Sources */,
+				AE53D51C27156564005DDBF3 /* PersistenceApp.swift in Sources */,
 				AE53D53627156899005DDBF3 /* User.swift in Sources */,
 				AE53D53827156B20005DDBF3 /* PersistenceManager.swift in Sources */,
-				AE53D51E27156564005DDBF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AE53D52127156564005DDBF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE53D52227156564005DDBF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE53D52927156566005DDBF3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE53D52A27156566005DDBF3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AE53D52D27156566005DDBF3 /* Debug */ = {
