@@ -16,6 +16,11 @@
 		AE7F1AE1273127A80021D874 /* RWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F1AE0273127A80021D874 /* RWidget.swift */; };
 		AE7F1AE3273127AB0021D874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7F1AE2273127AB0021D874 /* Assets.xcassets */; };
 		AE7F1AE7273127AB0021D874 /* RWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE7F1AD9273127A80021D874 /* RWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE7F1AED273127EC0021D874 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F1AEC273127EC0021D874 /* Network.swift */; };
+		AE7F1AEF2731288C0021D874 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F1AEE2731288C0021D874 /* User.swift */; };
+		AE7F1AF1273129530021D874 /* FetchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F1AF0273129530021D874 /* FetchUseCase.swift */; };
+		AE7F1AF327312AF30021D874 /* +LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F1AF227312AF30021D874 /* +LoadImage.swift */; };
+		AE7F1AF627312B1C0021D874 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AE7F1AF527312B1C0021D874 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,10 @@
 		AE7F1AE0273127A80021D874 /* RWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWidget.swift; sourceTree = "<group>"; };
 		AE7F1AE2273127AB0021D874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE7F1AE4273127AB0021D874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7F1AEC273127EC0021D874 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AE7F1AEE2731288C0021D874 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AE7F1AF0273129530021D874 /* FetchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUseCase.swift; sourceTree = "<group>"; };
+		AE7F1AF227312AF30021D874 /* +LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+LoadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7F1AF627312B1C0021D874 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,10 @@
 			children = (
 				AE7F1AC7273127410021D874 /* RealmWidgetApp.swift */,
 				AE7F1AC9273127410021D874 /* ContentView.swift */,
+				AE7F1AF0273129530021D874 /* FetchUseCase.swift */,
+				AE7F1AF227312AF30021D874 /* +LoadImage.swift */,
+				AE7F1AEC273127EC0021D874 /* Network.swift */,
+				AE7F1AEE2731288C0021D874 /* User.swift */,
 				AE7F1ACB273127420021D874 /* Assets.xcassets */,
 				AE7F1ACD273127420021D874 /* Preview Content */,
 			);
@@ -151,6 +165,9 @@
 				AE7F1AE6273127AB0021D874 /* PBXTargetDependency */,
 			);
 			name = RealmWidget;
+			packageProductDependencies = (
+				AE7F1AF527312B1C0021D874 /* Kingfisher */,
+			);
 			productName = RealmWidget;
 			productReference = AE7F1AC4273127410021D874 /* RealmWidget.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +216,9 @@
 				Base,
 			);
 			mainGroup = AE7F1ABB273127400021D874;
+			packageReferences = (
+				AE7F1AF427312B1C0021D874 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = AE7F1AC5273127410021D874 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7F1AEF2731288C0021D874 /* User.swift in Sources */,
+				AE7F1AF1273129530021D874 /* FetchUseCase.swift in Sources */,
 				AE7F1ACA273127410021D874 /* ContentView.swift in Sources */,
 				AE7F1AC8273127410021D874 /* RealmWidgetApp.swift in Sources */,
+				AE7F1AED273127EC0021D874 /* Network.swift in Sources */,
+				AE7F1AF327312AF30021D874 /* +LoadImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +539,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE7F1AF427312B1C0021D874 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE7F1AF527312B1C0021D874 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE7F1AF427312B1C0021D874 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE7F1ABC273127400021D874 /* Project object */;
 }
