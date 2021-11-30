@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+
+use_frameworks!
+inhibit_all_warnings!
+
+target 'TicTacToe' do
+  #pod 'RxRelay', '~> 3'
+  pod 'RIBs', :path => '../../../'
+  pod 'SnapKit'#, '~> 4.0.0'
+  pod 'RxCocoa'#, '~> 5.1'
+end
