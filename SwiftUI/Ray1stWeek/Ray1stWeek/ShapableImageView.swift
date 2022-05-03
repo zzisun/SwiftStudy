@@ -10,6 +10,7 @@ import SwiftUI
 struct ShapableImageView: View {
     private var shape: ShapeType
     @Binding private var image: String
+    @Binding private var isHidden: Bool
     
     var body: some View {
         let currentShape = getShape(shape: shape)
@@ -18,11 +19,22 @@ struct ShapableImageView: View {
             .clipShape(currentShape)
             .frame(width: 100, height: 100)
             .overlay(currentShape.stroke(Color.blue, lineWidth: 2))
+            .isHidden(isHidden)
     }
     
     init(shape: ShapeType, image: Binding<String>) {
         self.shape = shape
         self._image = image
+        self._isHidden = .constant(true)
+        showOrHideView(name: $image)
+    }
+    
+    private mutating func showOrHideView(name: Binding<String>) {
+        if let _ = UIImage(named: name.wrappedValue) {
+            self._isHidden = .constant(false)
+        } else {
+            self._isHidden = .constant(true)
+        }
     }
 }
 
@@ -59,5 +71,11 @@ func getShape(shape: ShapeType) -> some Shape {
         return AnyShape(Circle())
     case .rectangle:
         return AnyShape(Rectangle())
+    }
+}
+
+extension View {
+    func isHidden(_ hide: Bool) -> some View {
+        return hide ? opacity(0) : opacity(1)
     }
 }
