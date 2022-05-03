@@ -8,25 +8,27 @@
 import SwiftUI
 
 struct ShapableImageView: View {
-    @Binding var shape: ShapeType
+    private var shape: ShapeType
+    @Binding private var image: String
     
     var body: some View {
         let currentShape = getShape(shape: shape)
-        Image("flower")
+        Image(image)
             .resizable()
             .clipShape(currentShape)
             .frame(width: 100, height: 100)
             .overlay(currentShape.stroke(Color.blue, lineWidth: 2))
     }
     
-    init(shape: Binding<ShapeType>) {
-        self._shape = shape
+    init(shape: ShapeType, image: Binding<String>) {
+        self.shape = shape
+        self._image = image
     }
 }
 
 struct ShapableImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ShapableImageView(shape: .constant(.rectangle))
+        ShapableImageView(shape: .rectangle, image: .constant("flower"))
     }
 }
 

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var text: String = "코쿼 스터디"
+    @State private var text: String = ""
     
     var body: some View {
         ZStack {
@@ -28,18 +28,18 @@ struct ContentView: View {
                 Spacer()
                 CircleImageView()
                 Spacer()
-                ShapableImageView(shape: .constant(.rectangle))
+                ShapableImageView(shape: .rectangle, image: $text)
             }
             
             // padding이나 offset이 bold 후
-            Text("SwiftUI 공부")
+            Text("SwiftUI 학습하기")
                 .foregroundColor(.blue)
                 .bold()
                 .underline()
                 .padding()
                 .offset(x: 100, y: 140)
             
-            TextField("ABC", text: $text)
+            TextField("image", text: $text)
                 .foregroundColor(.white)
                 .font(.system(size: 20, weight: .medium, design: .default))
                 .offset(x: 80, y: -130)

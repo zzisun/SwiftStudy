@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CircleImageView: View {
     var body: some View {
-        Image(uiImage: getImage(image: "flower"))
+        Image(uiImage: getUIImage(image: "flower"))
             .resizable()
             .frame(width: 300, height: 200)
             .clipShape(Circle())
@@ -18,7 +18,7 @@ struct CircleImageView: View {
     }
 }
 
-func getImage(image: String) -> UIImage {
+func getUIImage(image: String) -> UIImage {
     guard let img = UIImage(named: image) else { return UIImage() }
     return img
 }
