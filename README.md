@@ -79,3 +79,5 @@
 # SwiftUI
 ## 1. Stacks, Formatted Text, Images
 - [Ray](https://github.com/zzisun/SwiftStudy/tree/master/SwiftUI/Ray1stWeek/Ray1stWeek)
+## 2. Navigation, Picker, Modifier
+- [Ray](https://github.com/zzisun/SwiftStudy/tree/master/SwiftUI/Ray2ndWeek/Ray2ndWeek)
