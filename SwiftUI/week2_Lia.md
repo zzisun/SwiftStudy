@@ -22,6 +22,8 @@
 - @State는 마치 다른 언어의 포인터와 비슷해서 값을 수정하고자 할 때 바인딩 타입인 $property를 사용한다
   - 다만, 위에서 언급한 것처럼, 포인터와는 다르게 뷰를 다시 렌더링하게 하는 역할도 있는 것 같다
 
+[cf. SwiftUI : @State, @ObservedObject / Struct를 Class로 바꾸는 방법 (서근 개발노트)](https://seons-dev.tistory.com/entry/SwiftUI-State-Struct-Struct를-Class로-바꾸는-방법) 
+
 
 
 > binding이 없는 경우
@@ -103,7 +105,7 @@ struct ContentView: View {
 
 > 예시
 
-<img src="https://docs-assets.developer.apple.com/published/9b9f14a16c5d9d1fed7b121071bdb262/17400/SwiftUI-Form-iOS@2x.png" alt="A form on iOS, presented as a grouped list with two sections. The" style="zoom:33%;" /> iOS     vs   macOS   <img src="https://docs-assets.developer.apple.com/published/cdbe25e36916e95c7d68402249d02bb4/17400/SwiftUI-Form-macOS@2x.png" alt="A form on iOS, presented as a vertical stack of views. At top, it shows" style="zoom:33%;" />
+<img src="https://docs-assets.developer.apple.com/published/9b9f14a16c5d9d1fed7b121071bdb262/17400/SwiftUI-Form-iOS@2x.png" alt="A form on iOS, presented as a grouped list with two sections. The" width="250" /> iOS     vs   macOS   <img src="https://docs-assets.developer.apple.com/published/cdbe25e36916e95c7d68402249d02bb4/17400/SwiftUI-Form-macOS@2x.png" alt="A form on iOS, presented as a vertical stack of views. At top, it shows" width = "300" />
 
 
 
