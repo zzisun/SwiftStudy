@@ -55,3 +55,32 @@ struct ContentView: View {
 ## OnSubmit
 - view modifier
 - Text Field 등 View의 user input 결과처리를 위한 modifier
+
+## TabView
+- UIKit의 UITabBarController와 유사
+- 하나의 화면에 여러 개의 View를 Tab 방식으로 보여줄 수 있음
+
+```swift
+struct ContentView : View {
+  var body: some View {
+    TabView {
+      Text("The First Tab")
+        .tabItem {
+          Image(systemName: "1.square.fill")
+          Text("First")
+        }
+      Text("The Second Tab")
+        .tabItem {
+          Image(systemName: "2.square.fill")
+          Text("Second")
+        }
+      Text("The Third Tab")
+        .tabItem {
+          Image(systemName: "3.square.fill")
+          Text("Third")
+        }
+    }
+    .font(.headline)
+  }
+}
+```
