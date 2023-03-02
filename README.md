@@ -88,3 +88,4 @@
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/focusState.md)
 ## 11. Async Await
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/week11_ray.md)
+- [Ray2](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/week_11_ray_2.md)
