@@ -87,7 +87,7 @@
 ## 4. FocusState
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/focusState.md)
 ## 8. Animation
-- [Ray]()
+- [Ray](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/ray_animation.md)
 ## 11. Async Await
 - [Ray](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/week11_ray.md)
 - [Ray2](https://github.com/zzisun/SwiftStudy/blob/master/SwiftUI/week_11_ray_2.md)
