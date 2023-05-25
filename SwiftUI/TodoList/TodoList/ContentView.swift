@@ -2,10 +2,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            TitleView(title: "TO-DO LIST")
-            Spacer()
-        }
+        ProgressListView(title: "해야 할 일", cardList: [
+            ProgressCardModel(title: "Title", content: "Content", author: "Author"),
+            ProgressCardModel(title: "Title", content: "Content", author: "Author")
+        ])
     }
 }
 
